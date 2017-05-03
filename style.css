@@ -1018,6 +1018,131 @@ h3.ui-sub-heading {
 }
 
 /* ----------------------------------------
+  START PAGE KVM VPS STYLE
+---------------------------------------- */
+.linux-kvm-page .vps-kvm-banner-wrapper {
+  margin: -39px 0 0 0;
+}
+.linux-kvm-page .kvm-plan-content,
+.linux-kvm-page .kvm-faq-content,
+.linux-kvm-page .vps-kvm-banner-content,
+.linux-kvm-page .vps-kvm-features-content,
+.kvm-help-wrapper .kvm-help-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 576px) {
+  .linux-kvm-page .kvm-plan-content,
+  .linux-kvm-page .kvm-faq-content,
+  .linux-kvm-page .vps-kvm-banner-content,
+  .linux-kvm-page .vps-kvm-features-content,
+  .kvm-help-wrapper .kvm-help-content  {
+    width: 540px;
+    max-width: 100%;
+  }
+  .linux-kvm-page .vps-kvm-features-content .feature {
+	width: 100%;
+	margin: 0;
+  }
+  .linux-kvm-page .dplan-list .plans {
+	width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .linux-kvm-page .kvm-plan-content,
+  .linux-kvm-page .kvm-faq-content,
+  .linux-kvm-page .vps-kvm-banner-content,
+  .linux-kvm-page .vps-kvm-features-content,
+  .kvm-help-wrapper .kvm-help-content  {
+    width: 720px;
+    max-width: 100%;
+  }
+  .linux-kvm-page .vps-kvm-features-content .feature{
+	width: 210px;
+	margin: 0 26px 0 0;
+  }
+  .linux-kvm-page .dplan-list .plans {
+	width: 165.5px;
+  }
+  .kvm-help-wrapper .kvm-help-content .kvm-help-blocks {
+    width: 227px;
+	padding: 0 10px;
+  }
+}
+@media (min-width: 992px) {
+  .linux-kvm-page .kvm-plan-content,
+  .linux-kvm-page .kvm-faq-content,
+  .linux-kvm-page .vps-kvm-banner-content,
+  .linux-kvm-page .vps-kvm-features-content,
+  .kvm-help-wrapper .kvm-help-content  {
+    width: 960px;
+    max-width: 100%;
+  }
+  .linux-kvm-page .vps-kvm-features-content .feature{
+	width: 290px;
+	margin: 0 26px 0 0;
+  }
+  .linux-kvm-page .dplan-list .plans {
+	width: 225.5px;
+  }
+  .kvm-help-wrapper .kvm-help-content .kvm-help-blocks {
+    width: 307px;
+	padding: 0 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .linux-kvm-page .kvm-plan-content,
+  .linux-kvm-page .kvm-faq-content,
+  .linux-kvm-page .vps-kvm-banner-content,
+  .linux-kvm-page .vps-kvm-features-content,
+  .kvm-help-wrapper .kvm-help-content  {
+    width: 1140px;
+    max-width: 100%;
+  }
+  .linux-kvm-page .vps-kvm-features-content .feature{
+	width: 350px;
+	margin: 0 26px 0 0;
+  }
+  .linux-kvm-page .dplan-list .plans {
+	width: 262.5px;
+  }
+  .kvm-help-wrapper .kvm-help-content .kvm-help-blocks {
+    width: 367px;
+  }
+}
+
+.linux-kvm-page .dd-sele-name li {
+  width: 25% !important;
+}
+#vps-new-tabs.server_loc_tabs,
+#dedicated-new-tabs {
+  width: 100%;
+}
+.linux-kvm-page .dd-opt {
+  width: 100%;
+}
+.linux-kvm-page .dd-server {
+  width: 100%;
+}
+.linux-kvm-page .dplan-list {
+  width: 100%;
+}
+.linux-kvm-page .dplan-list .plans .pricing {
+  padding: 7px 0 14px 0;
+}
+.kvm-help-wrapper .kvm-help-content h2 {
+  width: 100%;
+}
+.linux-kvm-page .kvm-faq-wrapper h2 {
+  width: 100%;
+}
+/* ----------------------------------------
+  END PAGE KVM VPS STYLE
+---------------------------------------- */
+
+/* ----------------------------------------
   PAGE 404 STYLE
 ---------------------------------------- */
 .page-404 {
